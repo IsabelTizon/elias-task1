@@ -1,31 +1,28 @@
 body {
 	padding: 0;
 	margin: 0 220px;
-	background-color: rgb(251, 222, 184) !important;
+	background-color: rgb(251, 222, 184);
 }
 
-.images-row-section2 {
+.flex-direction-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-.body-header {
-	display: flex;
-	flex-direction: row;
+
+.header {
+	background-color: rgb(85, 0, 4);
+	padding: 20px 20px 10px 20px;
 }
 
-.header-background-color {
-	background-color: rgb(85, 0, 4) !important;
-}
-.menu {
-	list-style: none;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
-}
-.fa-search {
+.fa-search,
+.menu-font {
 	color: #ffffff;
 }
+/* .nav-font:hover {
+	border-bottom: 2px solid #ffffff;
+} */
+
 /* 
 STYLES
 

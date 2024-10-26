@@ -21,10 +21,10 @@
 		/>
 	</head>
 	<body>
-		<!-- (header>img+div>input+i+nav>ul>li*7)+(section>h1+p+img+p)+(section>h1+p+div>img*3+p)+(footer>div>p+div>ul+li*2) -->
+		<!-- (header>img+div>input+i+nav>ul>li*7)+(section>h1+p+img+p)+(section>h1+p+div>img*3+p)+(footer>div>p+div>ul>li*2) -->
 
-		<header class="header-background-color">
-			<div class="body-header">
+		<header class="header">
+			<div class="flex-direction-row">
 				<img
 					src="img/logo.png"
 					alt="Acme"
@@ -43,15 +43,13 @@
 			</div>
 
 			<nav>
-				<ul class="menu">
-					<li>HOME</li>
-					<li>ABOUT US</li>
-					<li>SERVICES</li>
-					<li>PRODUCTS</li>
-					<li>BLOG</li>
-					<li>LOGIN</li>
-					<li>CONTACT</li>
-				</ul>
+				<a class="menu-font" href="#">HOME</a>
+				<a class="menu-font" href="#">ABOUT US</a>
+				<a class="menu-font" href="#">SERVICES</a>
+				<a class="menu-font" href="#">PRODUCTS</a>
+				<a class="menu-font" href="#">BLOG</a>
+				<a class="menu-font" href="#">LOGIN</a>
+				<a class="menu-font" href="#">CONTACT</a>
 			</nav>
 		</header>
 		<section>
@@ -102,7 +100,7 @@
 				persona que se dedica a la imprenta) desconocido usó
 				una galería de textos y los mezcló de tal manera que
 			</p>
-			<div className="images-row-section2">
+			<div class="flex-direction-row">
 				<img
 					src="/img/img1-section2.png"
 					alt="img-section2"
@@ -125,19 +123,14 @@
 			</p>
 		</section>
 		<footer>
-			<footer>
-				<div>
-					<p></p>
-					<div>
-						<ul></ul>
-						<li></li>
-						<li></li>
-					</div>
+			<div class="flex-direction-row">
+				<p>&copy;2023 ACME Corporation, Ltd.</p>
+				<div class="flex-direction-row">
+					<a class="menu" href="#">Aviso legal</a>
+					<a class="menu" href="#">|</a>
+					<a class="menu" href="#">Créditos</a>
 				</div>
-			</footer>
-
-			<li></li>
-			<li></li>
+			</div>
 		</footer>
 	</body>
 </html>
